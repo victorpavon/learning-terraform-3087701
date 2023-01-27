@@ -17,7 +17,7 @@ variable "ami_filter" {
   }
 }
 
-viriable "environment" {
+variable "environment" {
   description = "Development Environment"
 
   type = objetc ({
